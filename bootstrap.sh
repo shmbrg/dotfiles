@@ -12,12 +12,16 @@ brew install vault;
 brew install chezmoi;
 
 # Code
-#brew install --cask pycharm;
+brew install --cask pycharm;
 brew install --cask docker;
 brew install --cask google-cloud-sdk;
 
 # Browsers
 brew cask install google-chrome;
 
+# Convenience
+brew install --cask bettertouchtool;
+
 # configure dotfiles
-chezmoi init --apply --verbose https://github.com/shmbrg/dotfiles.git
+chezmoi init --apply shmbrg
+echo "chezmoi applied"
