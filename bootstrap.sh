@@ -10,6 +10,7 @@ brew install poetry;
 brew install kubernetes-cli;
 brew install vault;
 brew install chezmoi;
+brew install iterm2;
 
 # Code
 brew install --cask pycharm;
