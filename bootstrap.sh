@@ -29,3 +29,7 @@ brew install --cask bettertouchtool;
 # configure dotfiles
 chezmoi init --apply shmbrg
 echo "chezmoi applied"
+
+# switch shell to zsh
+# which zsh
+chsh -s /bin/zsh
