@@ -18,6 +18,7 @@ $ git pull
 $ git add .
 $ git commit -m "Initial commit"
 $ git push
+$ exit
 ```
 
 For more information see <https://www.chezmoi.io/docs/quick-start/>.
