@@ -26,10 +26,24 @@ brew cask install google-chrome;
 # Convenience
 brew install --cask bettertouchtool;
 
+# switch shell to zsh
+# which zsh
+chsh -s /bin/zsh
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# install fonts for custom oh-my-zsh theme
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+
+
+
+
 # configure dotfiles
 chezmoi init --apply shmbrg
 echo "chezmoi applied"
 
-# switch shell to zsh
-# which zsh
-chsh -s /bin/zsh
