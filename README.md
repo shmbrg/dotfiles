@@ -10,4 +10,14 @@ To interact with `chezmoi` use following commands:
 * Get dotfiles with `chezmoi init https://github.com/shmbrg/dotfiles.git`. No changes will be made so far.
 * Apply changes to your home directory with `chezmoi apply`.
 
+Push to repo:
+```
+$ chezmoi cd
+
+$ git pull
+$ git add .
+$ git commit -m "Initial commit"
+$ git push
+```
+
 For more information see <https://www.chezmoi.io/docs/quick-start/>.
