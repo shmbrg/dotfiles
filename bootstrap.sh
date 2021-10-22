@@ -11,6 +11,9 @@ brew install kubernetes-cli;
 brew install vault;
 brew install chezmoi;
 brew install iterm2;
+brew install httpie;
+#brew install jupyter;
+brew install zsh;
 
 # Code
 brew install --cask pycharm;
