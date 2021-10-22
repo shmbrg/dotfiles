@@ -40,8 +40,11 @@ cd fonts
 cd ..
 rm -rf fonts
 
-
-
+echo "---"
+echo "go to iTerm2 > Preferences > Profiles > Colors"
+echo "setup color presets to PASTEL"
+echo "go to > Text and select a Powerline font (Cousine)"
+echo "---"
 
 # configure dotfiles
 chezmoi init --apply shmbrg
