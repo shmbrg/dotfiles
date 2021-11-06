@@ -3,3 +3,5 @@
 	email = sebastian.humberg@gmail.com
 [core]
 	autocrlf = input
+[pager]
+	branch = false
