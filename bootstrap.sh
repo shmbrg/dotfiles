@@ -6,19 +6,22 @@
 # CLI Tools
 brew install pyenv;
 brew install tfenv;
-brew install poetry;
-brew install kubernetes-cli;
-brew install vault;
+brew install zsh;
 brew install chezmoi;
 brew install iterm2;
 brew install httpie;
+#brew install poetry;
+#brew install kubernetes-cli;
+#brew install vault;
 #brew install jupyter;
-brew install zsh;
+#brew tap dbt-labs/dbt,
+#brew install dbt;
+
 
 # Code
 brew install --cask pycharm;
 brew install --cask docker;
-brew install --cask google-cloud-sdk;
+#brew install --cask google-cloud-sdk;
 
 # Browsers
 brew cask install google-chrome;
@@ -49,4 +52,5 @@ echo "---"
 # configure dotfiles
 chezmoi init --apply shmbrg
 echo "chezmoi applied"
+echo "ATTENTION - be aware, there are gcloud specific settings in .zshrc"
 
