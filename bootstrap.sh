@@ -10,6 +10,7 @@ brew install zsh;
 brew install chezmoi;
 brew install iterm2;
 brew install httpie;
+brew install tree;
 #brew install poetry;
 #brew install kubernetes-cli;
 #brew install vault;
