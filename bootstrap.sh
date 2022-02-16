@@ -1,12 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 # install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # CLI Tools
 brew install pyenv;
 brew install tfenv;
-brew install zsh;
+# brew install zsh;
 brew install chezmoi;
 brew install iterm2;
 brew install httpie;
@@ -18,21 +18,20 @@ brew install tree;
 #brew tap dbt-labs/dbt,
 #brew install dbt;
 
-
 # Code
 brew install --cask pycharm;
 brew install --cask docker;
 #brew install --cask google-cloud-sdk;
 
 # Browsers
-brew cask install google-chrome;
+# brew cask install google-chrome;
 
 # Convenience
-brew install --cask bettertouchtool;
+# brew install --cask bettertouchtool;
 
 # switch shell to zsh
 # which zsh
-chsh -s /bin/zsh
+# chsh -s /bin/zsh
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
