@@ -14,3 +14,6 @@ source $ZSH/oh-my-zsh.sh
 
 # this needs to be set in order for pyenv to use shims
 eval "$(pyenv init -)"
+
+# set aliases
+alias rep="cd ~/Repositories/ && ls"
