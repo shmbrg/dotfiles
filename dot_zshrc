@@ -1,3 +1,5 @@
+# export default editor
+export EDITOR=nano
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/humbeseb/.oh-my-zsh"
@@ -17,7 +19,21 @@ eval "$(pyenv init -)"
 
 # set aliases
 alias rep="cd ~/Repositories/ && ls"
+alias ec="$EDITOR $HOME/.zshrc"
+alias sc="source $HOME/.zshrc"
 
+# set alias with parameter
 cdls() {
   cd $1 && ls
+}
+
+gitall() {
+  git add .
+  if [ "$1" != "" ]
+  then 
+    git commit -m "$1"
+    git push
+  else
+    echo "add git commit message"
+  fi
 }
