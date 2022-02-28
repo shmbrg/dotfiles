@@ -17,3 +17,7 @@ eval "$(pyenv init -)"
 
 # set aliases
 alias rep="cd ~/Repositories/ && ls"
+
+cdls() {
+  cd $1 && ls
+}
