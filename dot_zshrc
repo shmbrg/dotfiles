@@ -4,6 +4,9 @@ export EDITOR=nano
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/humbeseb/.oh-my-zsh"
 
+# add poetry to path
+export PATH="$HOME/.poetry/bin:$PATH"
+
 # all themes can be found here: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnoster"
 
@@ -21,6 +24,10 @@ eval "$(pyenv init -)"
 alias rep="cd ~/Repositories/ && ls"
 alias ec="$EDITOR $HOME/.zshrc"
 alias sc="source $HOME/.zshrc"
+alias ..="cd .."
+alias tf="terraform"
+
+
 
 # set alias with parameter
 cdls() {
@@ -37,3 +44,4 @@ gitall() {
     echo "add git commit message"
   fi
 }
+
