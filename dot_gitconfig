@@ -3,7 +3,10 @@
 	email = sebastian.humberg@gmail.com
 [core]
 	autocrlf = input
+	editor = "nano -w"
 [pager]
 	branch = false
 [init]
 	defaultBranch = main
+[alias]
+	empty = "git commit --allow-empty"
