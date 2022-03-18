@@ -26,7 +26,8 @@ alias ec="$EDITOR $HOME/.zshrc"
 alias sc="source $HOME/.zshrc"
 alias ..="cd .."
 alias tf="terraform"
-
+alias mlp="cd ~/Repositories/mlplatform/ && ls"
+alias k="kubectl"
 
 
 # set alias with parameter
