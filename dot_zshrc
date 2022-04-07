@@ -28,7 +28,7 @@ alias ..="cd .."
 alias tf="terraform"
 alias mlp="cd ~/Repositories/mlplatform/ && ls"
 alias k="kubectl"
-
+alias c="clear"
 
 # set alias with parameter
 cdls() {
@@ -46,3 +46,4 @@ gitall() {
   fi
 }
 
+export EDITOR=vim
