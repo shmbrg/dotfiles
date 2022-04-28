@@ -1,6 +1,6 @@
 [user]
 	name = shmbrg
-	email = sebastian.humberg@gmail.com
+	email = sebastian.humberg@diconium.com
 [core]
 	autocrlf = input
 	editor = "nano -w"
