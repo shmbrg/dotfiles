@@ -4,7 +4,7 @@
 [core]
 	autocrlf = input
 	editor = "nano -w"
-	excludefile = ~/.gitignore_global
+	excludesfile = /Users/humbeseb/.gitignore_global
 [pager]
 	branch = false
 [init]
