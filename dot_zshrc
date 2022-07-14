@@ -10,6 +10,11 @@ export PATH="$HOME/.poetry/bin:$PATH"
 # all themes can be found here: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# hide username@machine and show sth different instead
+prompt_context() {
+  prompt_segment black default "🚀 "
+}
+
 # add plugins
 plugins=(git zsh-autosuggestions)
 
@@ -22,6 +27,7 @@ eval "$(pyenv init -)"
 
 # set aliases
 alias rep="cd ~/Repositories/ && ls"
+alias vw="cd ~/Repositories/ && cd vwdfive && ls"
 alias ec="$EDITOR $HOME/.zshrc"
 alias sc="source $HOME/.zshrc"
 alias ..="cd .."
@@ -45,5 +51,3 @@ gitall() {
     echo "add git commit message"
   fi
 }
-
-export EDITOR=vim
