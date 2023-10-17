@@ -36,6 +36,10 @@ alias mlp="cd ~/Repositories/mlplatform/ && ls"
 alias k="kubectl"
 alias c="clear"
 
+# Set alias git
+alias gs="git status"
+alias gc="git checkout"
+
 # set alias with parameter
 cdls() {
   cd $1 && ls
@@ -51,3 +55,4 @@ gitall() {
     echo "add git commit message"
   fi
 }
+export ZSH=/Users/seb/.oh-my-zsh
