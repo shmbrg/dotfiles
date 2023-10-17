@@ -2,7 +2,7 @@
 export EDITOR=nano
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/humbeseb/.oh-my-zsh"
+export ZSH="/Users/seb/.oh-my-zsh"
 
 # add poetry to path
 export PATH="$HOME/.poetry/bin:$PATH"
