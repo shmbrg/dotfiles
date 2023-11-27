@@ -1,8 +1,8 @@
 [user]
 	name = shmbrg
-	email = sebastian.humberg@diconium.com
+	email = sebastian.humberg.extern@diconium.com
 [core]
-	autocrlf = input
+	autocrlf = false
 	editor = "nano -w"
 	excludesfile = /Users/humbeseb/.gitignore_global
 [pager]
