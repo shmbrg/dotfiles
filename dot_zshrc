@@ -1,6 +1,9 @@
 # Default PATH
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
+# Set JAVA_HOME
+export JAVA_HOME=/opt/homebrew/opt/openjdk@11
+
 # Export default editor
 export EDITOR=nano
 
@@ -13,23 +16,23 @@ export ZSH="$HOME/.oh-my-zsh"
 # all themes can be found here: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# preset by oh-my-zsh
+ZSH_DISABLE_COMPFIX="true"
+source $ZSH/oh-my-zsh.sh
+
 # hide username@machine and show sth different instead
 prompt_context() {
-  prompt_segment black default "->"
+  prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
 }
 
 # add plugins
 plugins=(git zsh-autosuggestions)
 
-# preset by oh-my-zsh
-ZSH_DISABLE_COMPFIX="true"
-source $ZSH/oh-my-zsh.sh
-
-# Set pyenv
-export PATH="$HOME/.pyenv/shims:$PATH" 
-
 # This needs to be set in order for Homebrew to work (sets PATH correctly)
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Set pyenv (needs to be set after Homebrew))
+export PATH="$HOME/.pyenv/shims:$PATH"
 
 # set aliases
 alias rep="cd ~/Repositories/ && ls"
